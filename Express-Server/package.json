@@ -1,0 +1,24 @@
+{
+  "name": "cricket-express-server",
+  "version": "1.0.0",
+  "description": "Cricket application express server",
+  "main": "app.js",
+  "author": "Natraj",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.15.0",
+    "mongoose": "^5.3.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "start": "start http://localhost:3030/cricket/api/players & nodemon"
+  }
+}
